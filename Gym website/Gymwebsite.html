@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url(wp4213171-baki-wallpapers.jpg);
+            color: white;
+            font-family: 'Aladin';
+            
+        }
+           
+        #left{
+              display: inline-block;
+              position: absolute; 
+              left: 31px;
+              top: 20px;
+              
+        }
+        #left img{
+            width: 100px;
+            filter: invert(100%);
+        }
+        #left div{
+            text-align: center;
+            line-height: 10px;
+            font-size: 20px;
+        }
+        #mid{
+            display: block; 
+            width: 550px;
+            margin: 20px auto;
+        }
+        #right{
+            display: inline-block;
+            position: absolute;
+            right: 110px;
+            top: 40px;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            padding: 12px;
+            font-size: 22px;
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            color: red;
+            text-decoration: underline;
+        }
+        .btn{
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            font-family: aladin;
+            padding: 10px 16px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .btn:hover{
+            background-color: red;
+        }
+        .container{
+            border: 4px solid white;
+            margin: 40px 1100px;
+            width: 26%;
+            border-radius: 28px;
+            padding: 35px 23px;
+            box-sizing: border-box;
+            font-size: 16px;
+}
+         .form-group input{
+            display: block;
+            text-align: center;
+            width: 277px;
+            margin: 9px auto;
+            padding: 8px;
+            border-radius: 10px;
+            border: 2px solid black;
+            font-family: aladin;
+            font-size: large;
+         }
+         .container h1{
+            margin: 30px 25px;
+            width: 400px;
+            display: block;
+         }
+         .container button{
+            width: 277px;
+            display: block;
+            margin: 25px auto;
+            font-size: large;
+         }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="box" id="left">
+            <img src="logo1.avif" alt="">
+           <div>Lakshay Fitness</div>
+        </div>
+        <div class="box" id="mid">
+            <ul class="navbar">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="box" id="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+<h1>Join Best Gym of Sonipat now</h1>
+<form action="noaction.php">
+    <div class="form-group">
+        <input type="text" name="" placeholder="write your name here">
+    </div>
+    <div class="form-group">
+        <input type="number" name="" placeholder="write your age here">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="write your gender here">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="write your locality here">
+    </div>
+    <button class="btn">Submit</button>
+</form>
+
+    </div>
+</body>
+</html>
