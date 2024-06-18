@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const pricingCards = document.querySelectorAll('.pricing-card');
+    const readMoreButtons = document.querySelectorAll('.read-more');
 
+    // Handle window resize
     function handleResize() {
         if (window.innerWidth <= 700) {
             pricingCards.forEach(card => {
@@ -16,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                 });
             }, { threshold: 0.01 });
-        
+
             pricingCards.forEach(card => {
                 card.classList.remove('slide-in');
                 observer.observe(card);
@@ -25,7 +27,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     handleResize();
-    
-   
+
     window.addEventListener('resize', handleResize);
+
+    readMoreButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            const card = this.closest('.service-card');
+            card.classList.toggle('expanded');
+        });
+    });
 });
+
