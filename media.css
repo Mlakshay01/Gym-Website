@@ -1,0 +1,170 @@
+@media screen and (max-width: 500px){
+    .navbar ul li a{
+        font-size: 10px;
+        margin: 0 1px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px){
+    .navbar ul li a{
+        font-size: 15px;
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .overlay {
+        flex-direction: column;
+        text-align: center;
+    }
+    .separator {
+        width: 100%;
+        height: 2px;
+        margin: 20px 0;
+    }
+    .contact-left{
+        font-size: 18px;
+    }
+    .pricing-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    .navbar {
+        font-size: 12px;
+        margin-left: -2px;
+        margin-right: -2px;
+    }
+
+    .navbar ul {
+        display: flex;
+    }
+
+    .navbar ul li {
+        display: flex;
+        justify-content: center;
+        margin-left: 5px;
+    }
+
+    .navbar a {
+        font-size: 12px;
+        margin-left: -20px;
+    }
+
+    .overlay {
+        font-size: 10px;
+    }
+
+    .overlay p {
+        font-size: 10px;
+    }
+
+    .overlay h1 {
+        font-size: 18px;
+    }
+
+    .overlay h2 {
+        font-size: 16px;
+    }
+
+    .overlay h3 {
+        font-size: 14px;
+    }
+
+    .services {
+        margin-inline: 1rem;
+    }
+
+    .card-data {
+        width: 250px;
+        padding: 1rem;
+    }
+    .contact-left{
+        font-size: 18px;
+        margin: 30px 20px;
+    }  
+    input{
+        font-size: 13px;
+        width: 130px;
+        margin: 0px 31px 10px 0px;
+    }
+    textarea{
+        transform: scale(0.7);
+        -webkit-transition: transform 0.5s; 
+        margin-top: -10px;
+    }
+    .contact-right{
+        font-size: 13px;
+    }
+    .pricing-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact-left{
+        margin: 43px -53px 10px 103px;
+        padding: 2px 2px 2px 2px;
+        color: white;
+        background-color: grey;
+    }
+}
+
+@media screen and (min-width: 745px) {
+    .navbar {
+        font-size: 16px;
+        margin-left: -16px;
+        margin-right: 0px;
+    }
+    .overlay {
+        height: 100%;
+    }
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
+    }
+    .contact-left{
+        font-size: 18px;
+    }
+    input{
+        width: 150px;
+        font-size: 15px;
+    }
+    textarea{
+        transform: scale(0.9);
+        -webkit-transition: transform 0.5s; 
+    }
+}
+
+
+@media screen and (min-width: 1120px) {
+    .navbar {
+        font-size: 22px;
+    }
+    .services {
+        height: 100vh;
+    }
+    .card-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .card-image {
+        width: 348px;
+    }
+    .card-data {
+        width: 316px;
+        padding-inline: 2.5rem;
+    }
+    .contact-left{
+        font-size: 36px;
+    }
+    input{
+        width: 300px;
+    }
+
+    textarea{
+        transform: scale(1.1);
+        -webkit-transition: transform 0.5s;
+        margin: 24px 15px;
+    }
+}
+

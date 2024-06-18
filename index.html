@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshay's Fitness Club</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <div id="about-img" >
+        <div class="overlay" id="ABOUT">
+            <div class="left">
+                <h1>Welcome to Lakshay's Fitness Club</h1>
+                <p>Your Journey to Fitness Starts Here</p>
+            </div>
+            <div class="separator"></div>
+            <div class="right">
+                <h2>Why Choose Us?</h2>
+                <h3>Top-Notch Facilities</h3>
+                <p>Our gym is equipped with the latest machines and fitness technology, ensuring you have everything you need for a complete workout experience. From cardio machines and free weights to strength training equipment, we have it all.</p>
+                <h3>Expert Trainers</h3>
+                <p>Our certified trainers are dedicated to helping you succeed. With personalized training programs and expert guidance, you'll receive the support you need to reach your fitness goals safely and effectively.</p>
+            </div>
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="#" id="logo">Fitness Club</a>
+        <ul>
+            <li><a href="#SERVICE" >Home</a></li>
+            <li><a href="#SERVICE" >Services</a></li>
+            <li><a href="#PRICING" >Pricing</a></li>
+            <li><a href="#ABOUT" >About</a></li>
+        </ul>
+        <a href="#ENQUIRY" id="join-btn">Enquiry</a>
+    </div>
+    <div class="services" id="SERVICE">
+		<h2>SERVICES</h2>
+        <div class="card-container">
+            <article class="service-card">
+                <img src="Services/gym.png" alt="" class="card-image">
+                <div class="card-data">
+                    <span class="card-description">Best in town gym facility with more than 60 machines installed</span>
+                    <h3 class="card-title">Gymnasium</h3>
+                    <a href="#" class="card-button read-more">Read More</a>
+                    <p class="expanded-description">Our gym offers a comprehensive selection of modern fitness machines and equipment, suitable for all fitness levels. Whether you're focusing on cardio, strength training, or flexibility, our gymnasium provides the perfect environment to achieve your fitness goals. Our experienced trainers are available to assist you with personalized workout plans tailored to your needs.</p>
+                </div>
+            </article>
+            <article class="service-card">
+                <img src="Services/swimming-pool.jpg" alt="" class="card-image">
+                <div class="card-data">
+                    <span class="card-description">Nothing better than a refreshing bath in a pool after the workout</span>
+                    <h3 class="card-title">Swimming Pool</h3>
+                    <a href="#" class="card-button read-more">Read More</a>
+                    <p class="expanded-description">Our swimming pool offers a relaxing and invigorating experience for our members. Whether you're looking to cool off after a rigorous workout or simply enjoy some leisure time, our pool provides the perfect setting. With clean and well-maintained facilities, you can enjoy a swim in a serene environment. Join our aqua fitness classes or swim laps at your own pace under the guidance of our qualified instructors.</p>
+                </div>
+            </article>
+            <article class="service-card">
+                <img src="Services/sauna-bath.jpg" alt="" class="card-image">
+                <div class="card-data">
+                    <span class="card-description">Sauna bath for faster recovery and healing </span>
+                    <h3 class="card-title">Sauna Bath</h3>
+                    <a href="#" class="card-button read-more">Read More</a>
+                    <p class="expanded-description">Step into our sauna bath to unwind and detoxify. The heat promotes relaxation and relieves muscle tension, helping to improve circulation and promote overall well-being. Regular sauna sessions can aid in stress reduction and enhance recovery after intense workouts. Our sauna facilities are equipped with modern amenities to ensure a comfortable and rejuvenating experience for our members.</p>
+                </div>
+            </article>
+            <article class="service-card">
+                <img src="Services/massage-room.jpg" alt="" class="card-image">
+                <div class="card-data">
+                    <span class="card-description">Say goodbye to your body cramps after a perfect massage</span>
+                    <h3 class="card-title">Massage</h3>
+                    <a href="#" class="card-button read-more">Read More</a>
+                    <p class="expanded-description">Experience the benefits of professional massages at our massage center. Our skilled therapists offer a variety of massage techniques to address muscle soreness, stress, and fatigue. Whether you prefer a deep tissue massage to target specific areas or a relaxing Swedish massage to unwind, our massage services cater to your individual needs. Enhance your overall wellness with regular massage sessions that promote relaxation, improve flexibility, and rejuvenate your body.</p>
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="pricing" id="PRICING">
+        <h2>Pricing</h2>
+        <div class="pricing-container">
+            <article class="pricing-card beginner">
+                <h3>Beginner</h3>
+                <ul>
+                    <li>Access to gym facilities</li>
+                    <li>Basic fitness assessment</li>
+                    <li>Personalized workout plan</li>
+                </ul>
+                <p>$29.99 / month</p>
+                <a href="#" class="purchase-btn">Purchase</a>
+            </article>
+            <article class="pricing-card intermediate">
+                <h3>Intermediate</h3>
+                <ul>
+                    <li>Access to gym facilities</li>
+                    <li>Advanced fitness assessment</li>
+                    <li>Personalized nutrition plan</li>
+                </ul>
+                <p>$49.99 / month</p>
+                <a href="#" class="purchase-btn">Purchase</a>
+            </article>
+            <article class="pricing-card professional">
+                <h3>Professional</h3>
+                <ul>
+                    <li>Access to gym facilities</li>
+                    <li>Comprehensive fitness assessment</li>
+                    <li>Personal training sessions</li>
+                    <li>Access to all facilities including sauna and pool</li>
+                </ul>
+                <p>$99.99 / month</p>
+                <a href="#" class="purchase-btn">Purchase</a>
+            </article>
+        </div>
+    </div>
+    
+	<div id="ENQUIRY" class="contact">
+    <div class="contact-left">
+        Contact Us
+    </div>
+    <div class="contact-right">
+        <form action="">
+            <input type="text" placeholder="NAME" id="name"><br>
+            <input type="number" placeholder="AGE" id="age"><br>
+            <input type="tel" placeholder="PHONE" id="phone"><br>
+            <label for="gender-male">MALE</label>
+            <input id="gender-male" type="radio" name="gender" value="male">
+            <label for="gender-female">FEMALE</label>
+            <input id="gender-female" type="radio" name="gender" value="female"><br>
+            <textarea name="" id="enquiry" placeholder="Drop your enquiry here" cols="30" rows="15"></textarea><br>
+            <input id="submit" type="submit">
+        </form>
+    </div>
+    <div class="footer-separator"></div>
+</div>
+
+	
+    <script src="script.js"></script>
+</body>
+</html>
