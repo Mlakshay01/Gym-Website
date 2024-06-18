@@ -168,3 +168,31 @@
     }
 }
 
+/* Disable transitions and animations below 700px resolution */
+@media (max-width: 700px) {
+    * {
+        transition: none !important;
+        animation: none !important;
+    }
+    
+    .pricing-card {
+        transform: none !important;
+    }
+    
+    .service-card .card-data {
+        transform: translateY(0) !important;
+        opacity: 1 !important;
+    }
+    
+    .service-card {
+        overflow: initial !important;
+    }
+    
+    .pricing-card {
+        transform: none !important;
+    }
+    .card-data{
+        margin-top: -5rem;
+    }
+}
+
