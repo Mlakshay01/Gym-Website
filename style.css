@@ -495,14 +495,12 @@ p {
 .contact-left {
     display: flex;
     justify-content: center;
-    box-shadow: 1px 1px 5px 3px goldenrod;
     width: 300px;
     height: auto;
     font-size: 36px;
     color: white;
-    background-color: grey;
     align-self: flex-start;
-    font-weight: 500;
+    font-weight: 1000;
 
 }
 
